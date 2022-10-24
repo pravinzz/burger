@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    
+    /* background-color: #607d8b; */
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    color: #ffe27a !important;
+    font-family: 'Algerian';
+    
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+    width: 75%;
+}
+
+.home,
+.skills,
+.contact,
+.about,
+.profile,
+.signup {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-style: italic;
+    
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.profile {
+    font-size: 25px !important;
+    
+}
+
+.ant-dropdown-menu {
+    position: relative;
+    margin-left: -8px;
+    padding: 6px 13px;
+    text-align: left;
+    list-style-type: none;
+    background-color: #fff;
+    
+    background-clip: padding-box;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: 0 3px 6px -4px RGB(0 0 0 / 12%), 0 6px 16px 0 RGB(0 0 0 / 8%), 0 9px 28px 8px RGB(0 0 0 / 5%)
+}
+.home :active{
+    color: #ffe27a;
+    outline-width: 50px;
+}
+.skills :active{
+    color: #ffe27a;
+    outline-width: 50px;
+}
+.about :active{
+    color: #ffe27a;
+    outline-width: 50px;
+}
+.contact :active{
+    color: #ffe27a;
+    outline-width: 50px;
+}
+.profile :active{
+  color: #ffe27a;
+  outline-width: 50px;
+}
+
+
+/* .signup{
+    border: 1px solid rgb(9, 243, 48);
+    border-radius: 15px;
+} */
+
